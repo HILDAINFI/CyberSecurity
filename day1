@@ -1,0 +1,19 @@
+DAY_1
+
+vulnerability-weakness,Resource,Security
+HashCat-Password cracking tool,Brute force-hacking method
+Attack-System hacking(Software or hardware)
+RAT-Remote access Trojan
+3 types:1.physical,logical,administrative control.
+PortScanning
+OSI layers,Protocols-Set Of Rules
+Transport layer-to connect software and hardware(tcp/ip protocol)-65,535 ports + UDP (65,535)=130070
+https:443(safe website).http:80(unsafe website)
+blockchain technology,exploit,sql injection,session hijacking-using another accunt without permission,phising.trojan horse,ip adderss,cloud,DNS poisioning,ARP,spoofing,hashing
+metasploit,backdoor
+Hacking:
+   Gaining unauthorized access
+Ethical HACKING:
+   Gaining unauthorizes access with written concern.
+web application penetration/security testing
+web application-with user interaction,web page,web server, website-no user interaction
