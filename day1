@@ -8,7 +8,7 @@ RAT-Remote access Trojan
 PortScanning
 OSI layers,Protocols-Set Of Rules
 Transport layer-to connect software and hardware(tcp/ip protocol)-65,535 ports + UDP (65,535)=130070
-https:443(safe website).http:80(unsafe website)
+https:4443(safe website).http:80(unsafe website)
 blockchain technology,exploit,sql injection,session hijacking-using another accunt without permission,phising.trojan horse,ip adderss,cloud,DNS poisioning,ARP,spoofing,hashing
 metasploit,backdoor
 Hacking:
@@ -17,3 +17,50 @@ Ethical HACKING:
    Gaining unauthorizes access with written concern.
 web application penetration/security testing
 web application-with user interaction,web page,web server, website-no user interaction
+Offensive(red team)-Attack
+Defensive(blue team)-SOC(security operational center) analyst
+purple team-both 
+three types of hackers:WHITE HAT-architecture,blueprint of machine,GREY HAT-both,BLACK HAT-hackers
+.script kiddies
+.state hackers
+.hacktivism
+
+*CIA-Confidentiality,Integrity-originality,Availability
+**AUTHENTICATION**-to verify someone's identity
+ssl
+encryption-clear text to cyphertext
+
+
+-----------AFTERNOON--------------
+1.Breach
+     -loss of control,unauthorized disclosure
+
+2.Event
+     -an observable occurrence in a network.NIST SP 800-61 Rev 2
+
+3.Exploit
+      -A particular attack
+
+4.Incident
+      -potentially jeopardizes the confidentiality,which affects CIA 
+
+5.Intrusion
+      -security event,attempts to gain ,access to a system or system resource without authorization
+
+6.threat
+       -potential to damage
+
+7.Risk
+--------vulnerability+threat
+
+
+   TOE-Target Of Evaluation
+
+ipv4-decimal system-32 bits
+
+ipv6-hex system-128 bits
+127.0.0.1-local host   
+
+
+
+there are 256 posiible addresses
