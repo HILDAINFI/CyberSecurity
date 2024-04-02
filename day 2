@@ -1,0 +1,40 @@
+@echo off
+start cmd
+start powershell
+start calc
+start cmd
+start powershell
+start calc
+start cmd
+start powershell
+start calc
+now,save as "note.bat" with all files and save in desktop.
+* If you use it for 1000 times then the system will hang so the person should restart or reboot the system.
+* Executable format in windows: .exe , .bat
+* Environmental variable : to set the path.
+* CIDR's opposite is Subnet mask.
+* ping 172.1.44.44 -c 4
+  here c - "count" requires administrative previlege ; 4 - no.of.packets has to be return in linux. While using ----------kali----------
+  -c is a switch / flag.
+* In Windows : use --help 
+  here they many commands or options called switch or flag.
+  example : to ping 
+            ping google.com -n 10
+  here -n => no.of.counts and 10 is no.of.packets 
+  we use this in windows.
+* windows -n
+* linux -c
+* to connect with same devices use "cross-over" wire is used.
+* to connect with different devices use "straight-through" wire is used.
+* RJ45 - ethernet color cable.
+* fibre optics and coaxial wires. 
+* to connect to routers use "serial cables".
+* Full Duplex VS Half Duplex.
+   => Full Duplex - 2 way communication.
+   => Half Duplex - 1 way communication.
+* NIC - Network Interface Card.
+* MAC address - Permanent Network address.
+* Hub is a repeater or an extention or use to coonect 
+* vulnerability in Hub : Data transfer to all the connected PC's.
+* PING uses ICMP Protocol : if you block ICMP protocol only ping will not work, by blocking TCP/UDP will not affect ping control
+*
