@@ -1,0 +1,24 @@
+wlan tunnel0
+vpn and proxyserver
+-------vpn is the ideal -encrypt traffic-vpn creates a tunnel ------encryption-------
+RSA AES -Cipher text
+encryption -> clear text to cipher text and decryption ->cipher text to clear text
+
+ENCRYPTION
+1.symmetruc encryption-single key
+2.Asymmetric encryption- public key and private key
+there is no technology to break private key
+
+locked website uses asymmetric
+tcp/udp ------fast connection uses udp but not secure 
+ ----------------tcp is secure ut delay
+
+
+wireshark-to filter particular ips's:ip.addr==98.137.11.163
+
+
+
+3 way handshake*
+---syn
+---syn+ack
+---ack
