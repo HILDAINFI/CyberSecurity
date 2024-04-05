@@ -4,3 +4,14 @@
   dns
   dhcp
   
+--------------------------------ROUTER--------------------------------------------------------------------------------------------
+  1.Resquest time out-problem in physical connect
+  2.destination host unreached - problem in routing
+  ---------------------------------------------------------------------------------------------------------------------------------
+  tracert 192.168.1.2  - traces the route 
+  -------------------------------------DHCP----------------------------------------------------------------------------------------
+  1.Dynamic host Configuration protocol
+* DNS - Domain Name System.
+* DHCP - Dynamic Host Configuration Protocol.
+* A Record - IPv4
+* AAAA Record - IPv6
