@@ -20,3 +20,27 @@ environments--------->1.product environment
  burp suite-proxy
   client---->proxy--->server
 it is bread and butter for web application penetration testers 
+
+
+
+****** two important commands to on network in linux commands******
+  1.sudo nmcli networking on
+  2.sudo service NetworkManager start/stop/restart 
+  3.cat /etc/apt/soure.list
+  4.nano file path
+  5.sudo service NAME start /stop/ restart/status
+
+
+
+---------------AFTERNOON------------------
+URL ENCODING
+https://www.example.com
+
+
+default website path -linux
+    -ls /var/www/html/-linux
+    -c:\inetpub\wwwroot-windows
+
+
+---------------------------------------------------------------------------------------------------------------
+ GET/v1/tiles HTTP/2
