@@ -1,2 +1,19 @@
---------------forenoon----------------
+                                                                --------------forenoon----------------
   1.wireshark
+DIfferent TYPES OF FLAGS ARE AVAILABLE
+packet crafter-we can design the packet
+------status code--------
+200-success
+
+ client Request (contains request method)----------> server response(response code) ----  CONTACTS---> db
+HTTP methods           
+GET                                                             1***-Informational
+POST                                                            2***
+PUT/UPDATE                                                      3***
+OPTIONS                                                         4***
+DELETE                                                          5***
+
+
+environments--------->1.product environment
+                       2.staging environment
+                         3.QA environmnet
