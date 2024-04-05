@@ -8,12 +8,15 @@ packet crafter-we can design the packet
  client Request (contains request method)----------> server response(response code) ----  CONTACTS---> db
 HTTP methods           
 GET                                                             1***-Informational
-POST                                                            2***
-PUT/UPDATE                                                      3***
-OPTIONS                                                         4***
-DELETE                                                          5***
+POST                                                            2***-ok
+PUT/UPDATE                                                      3***-redirection
+OPTIONS                                                         4***-client side error
+DELETE                                                          5***-server side error
 
 
 environments--------->1.product environment
                        2.staging environment
                          3.QA environmnet
+ burp suite-proxy
+  client---->proxy--->server
+it is bread and butter for web application penetration testers 
