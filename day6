@@ -27,3 +27,16 @@ API
 *********SAST tools-static application security testing -added advantage(pychram ide)-secure coding***********
 thread modeling-defensive 
 
+
+----------penetration testing-----------------five stages--------------five phases of hacking(**interview question)
+1.Information gathering
+2. Scanning the ports ,servers (using CMS ,website can be done without  coding)
+3.Gaining access (system hacking)
+4.maintaining access (persistence)
+5.clearing tracks (removing all digital prints)
+NDA
+
+
+
+Kali------->zaproxy
+
