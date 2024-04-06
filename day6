@@ -1,7 +1,29 @@
 -------------------------forenoon-----------------------------------
   CIA triad
-  vulnerability assessment process
-  ---------asset discovery
-  ---------vulnerability scanning
-  ---------vulnerability assessment
-  ---------vulnerability remedation
+  vulnerability assessment process.
+  ---------asset discovery.
+  ---------vulnerability scanning.
+  ---------vulnerability assessment.
+  ---------vulnerability remedation.
+
+
+NVD-national vulnerability database-  NVD
+----common y scoring system
+=---->Common Vulnerability Scoring System Version 4.0 Calculator
+
+
+vulnerability scanners:
+1.manual /penetration test
+2.automated test
+
+
+API
+1.policy
+2.procedure - step-by-step process for following policy
+3.standard - department wise segregation
+4.regulation - government based rule(gdpr...)
+
+
+*********SAST tools-static application security testing -added advantage(pychram ide)-secure coding***********
+thread modeling-defensive 
+
