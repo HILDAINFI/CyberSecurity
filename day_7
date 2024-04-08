@@ -1,1 +1,32 @@
+cyberchef-image loading in db
 
+path traversal/file inclusion
+
+
+
+
+book bible for hacketrs------hacktricks.xyz
+
+
+cat etc/passwd | grep teama-to run two commands simaltaneously
+|,&,&&
+|-1 notgive output then it move to right side command
+&&-if left side outputia given,then only it moves to right side command
+
+
+
+
+bind shell,reverse shell,web shell
+web shell-browser
+bind shell-process/service/port combine
+reverse shell-user interactionn
+
+
+revshells.com-reverse shell tool
+
+
+nc -lvnp 8888-to listen the port
+
+
+
+for windows-tcview
