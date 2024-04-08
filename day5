@@ -26,7 +26,7 @@ it is bread and butter for web application penetration testers
 ****** two important commands to on network in linux commands******
   1.sudo nmcli networking on
   2.sudo service NetworkManager start/stop/restart 
-  3.cat /etc/apt/soure.list
+  3.cat /etc/apt/source.list
   4.nano file path
   5.sudo service NAME start /stop/ restart/status
 
