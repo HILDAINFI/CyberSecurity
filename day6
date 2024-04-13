@@ -40,3 +40,105 @@ NDA
 
 Kali------->zaproxy
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+* VA - Vulnerability Assessment 
+   => finding out the potential weakness that affect the CIA.
+* High priority
+  - Risk Matrix
+      => Impact
+      => Livelihood ( possibility)
+
+* 4 Steps in vulnerablity Assessment process: 
+      => Assest Discovery
+      => Vulnerability Scanning - (all IOT should scan & scan all 3rd party apps).
+      => Vulnerability assessment - (risk analysis & prioritize => vulnerability is directly connectes with threads then 1st gives high prioriity to that).
+      => Vulnerability remedition
+* CVSS - Common Vulnerability Scoring System - giving score to the vulnerability
+      - scores range were,
+            severity         |        severity score range
+-----------------------------------------------------------------
+             None            |                0.0
+             Low             |              0.1-3.9
+            Medium           |              4.0-6.9
+            High             |              7.0-8.9
+            Critical         |              9.0-10.0
+* Vulnerability Scanners
+     => Types
+*Complains - regulations
+* Important cyber terms : 
+        => Policy
+        => Procedure
+        => Standard
+        => Regulations
+* SAST - Static Application Security Testing tool
+        => use for secure coding
+* Vulnerability Assessment Methods
+-----------------------------------------------------------------------------------------------------------------------
+* Executive Summary - Abstract
+* Scope should mention the attacks what and all should be performed.
+* NDA
+------------------------------------------------------------------------------------------------------------------------
+* PT - Penetration Testing     
+    - Types of PT are: 
+          => Application
+          => Network
+          => Physical
+          => IOT/Mobile
+------------------------------------------------------------------------------------------------------------------------------
+* 5 phases of hacking :                            -----------important question------------
+     => Information gathering
+     => Scanning
+           - using CMS (website can be done without coding)
+     => Gaining access
+           - System hacking
+           - exploiting the vulnerability
+    => Maintaining the access
+           - Persistence
+    => Clearing Tracks
+           - removing all digital prints)
+---------------------------------------------------------------------------------------------------------------------------------
+* Process of PT:
+       => Information Gathering
+       => Threat Modeling
+       => Vulnerability Analysis
+-------------------------------------------------------------------------------------------------------------------------------------
+* Red Teamers - can clone your access in secs.
+* Internal Perneration testing : (White box testing - there is added information)     
+* External Peneration Testing : (there is no added information)
+--------------------------------------------Vulnerability Scanner Tools--------------------------------------------------------------
+* Zaproxy - An effective tool to find bugs and vulnerability.
+* HSTS - HTTP Strict Transport Security.
+* Tenable Nessus - Tool 
+---------------------------------------------OWASP-----------------------------------------------------------
+* OWASP top ten vulnerabilities : 
+   - learn all 10 vulnerabilities process along with  
+          => what is that ?
+          => How it is detected ?
+          => How it is prevented ?
+-----------------------tools for false positive vulnerability-----------------------
+* Nikto
+* WPScan
+------------------------------------------------------------------------------------------------------------------------------------
+* Static Testing - without deplying the code
+* dynamic Testing - with the deploying of code
+                - eg: Block box - testing
+------------------------------------------------SQL Injection--------------------------------------------------------------------------
+* Uses : 
+    - SQL injection (SQLi) is a web security vulnerability that allows an attacker to interfere with the queries that an application makes to its database.
+* HOW TO DETECT THE SQL INJECTION ?
+ Ans : With ' quote or " quote
+* Authentication Vulnerability
+* Path Traversal / Directory Traversal - we can navigate to different directories
+       eg : ..//..//..//.../
+* pwd - print working directory (to check the current directory)
+* etc/passwd - every linux must have this.
+             - to read this use cat command.
+* vin.ini    - every windows must have this.
+* Absolute path - full directory is mentioned.(if it is in diff directory use this)
+      eg : home/desktop/fliename/pyhton.exe
+* Relative path - shortcut path (if it is in the same directory use this)
+      eg : burpsuite
+* to check the particular file is installed or not / where it is located - use " where "
+* Navigating the directory - directory traversal
+     eg   :  /var/www/images/123.png
+traversal : ..//..//images/123.png
