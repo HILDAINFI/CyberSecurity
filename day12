@@ -1,1 +1,24 @@
-
+Why we need cyber security? 
+    => Protecting ourself,or oranization etc....
+Forbes publication for cyber security.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+* Live cyber threat map 
+* Radware
+* Bitdefender
+    => to check current cyber attacks around world.
+    => good company for anti-virus software.
+* Black Hat,White Hat,Grey Hat  => Hackers type
+* Zero-day Vulnerability - still not found that vulnerability.
+* CIA =>
+  C - Confidentiality  ----- tamper the data to use only by me like private and at the rest
+  I - Integrity   ---------  remoting the data or non-tampered the data that shows the originality.
+  A - Availability --------- Available for the users or for the organinzation.
+* OSCP - Offensive Security Certificate Personnel
+   => Download the template for project survey.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+* Types of FootPrinting / Info-gathering : 
+   => Active  -  Obtain information by directly interacting with the target.
+              -  you could surf public internet sites manually, query DNS, or use open-source intelligence (OSINT) gathering tools to automate the discovery of information.
+   => Passive -  Obtain information without direct interaction with the target. 
+              -  This means obtaining publicly available information using things such as: search engines, certificate information, social media postings, and even job postings.
+    
