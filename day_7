@@ -30,3 +30,43 @@ nc -lvnp 8888-to listen the port
 
 
 for windows-tcview
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Reading arbitary files via path traversal:
+  => never use root user
+etc/passwrd - can enumurate the username.
+cyber chef - website to encode and decode the txt,images etc....
+  => images can convert into base64 and we can decode that image.
+terminal name - bin/bash running in bash shell
+bin/bash - shows the user of that application or images.
+         - remaining all are application interface.
+....//....//....//....// - if someone block the ..// then we use this type of format for images.
+* book.hacktricks.xyz - hackers bible
+* path traversal = file inclusion  => another name
+* we can run two or more commands at a time => cat /etc/passwd | grep /bin/bash
+| - pipe => left side command will send as inout to right side command using pipe.
+         => it is dependently will work becoz left side command will not come to right side only right get work and show the output.
+ eg : cat /etc/passwd | grep TeamA    
+grep - 
+&& => can combine 2 or more commands
+   => It is independently will work.
+ eg : mkdir MKCE && cd MKCE && touch test.
+ eg : 192.168.0.1 && ver
+DVWA - Damn Vulnerable Web Application
+   => You can get a kali virtually.
+* Shell types : 
+   => Web portal - browser
+   => Bind shell - process/service/port combine
+   => Reverse shell - user interaction
+REVERSE SHELL :
+* revshells.com - using this website we can access any one system by sending only one line
+nc -lvnp  => net cat listen ver net port 8888
+* tcpview and process utilities => check whether our system is hacked or not.
+WEB SHELL : 
+* chaining vulnerability
+CROSS-SITE SCRIPTING : 
+  - Mod security byepass
+      => searching for recent payloads.
+cookiee stealer
+canary tokens
