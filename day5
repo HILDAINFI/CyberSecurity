@@ -42,5 +42,80 @@ default website path -linux
     -c:\inetpub\wwwroot-windows
 
 
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------wireshark--------------------------
+request -------> response
+client  -------> server
+response contains status code.
+request contains http code.
+http methods:                                                       
+   => get      - getting the data
+   => put      - altering or updating the alrady defined data.
+   => post     - to send the data to server.
+   => option   - communication options for a given URL or server.
+   => delete   - 
+Response code:
+   =>1xx - Informational
+   =>2xx - OK
+   =>3xx - Redirection
+   =>4xx- Client side error
+   =>5xx- Server side error
+Testing types: 
+   =>Production Environment - live website/webApp.
+   =>Staging Enviornment   - excat copy of production environment .
+   =>QA Environment  - building environment like demo testing we can use and work for anything.
+Proxy - Client --------> Burp Proxy -------> Server
+Client------>proxy1---->proxy2------>proxy3----->proxy4------>proxy5------>proxy6----->server.
+Inside every proxy server there must be 6 differnet types of proxies available.
+ - DarkWeb like Duckduckgo,Tor,darkweb.onion are the platforms we can see the unknown websites.
+ - We can also access it using Bitcoin
+ - Bitcoin rate in dollars - $66,396.41 USD.mkce
+------------------------------------Burp Suite----------------------------------------------------------------
+Burp Suite - It is actually a proxy.
+8080 port no for burpsuite
+* Session Hijacking
+    => using cookiee editor
+http://www.google.com/index.html
+http://www.google.com/directory1/directory2/filename.html
+
+webportal - http/https
+* TLD - Top Level Domain
+* Domain - google.com
+* Subdomain - domain with some other websites.
+   eg:google maps,mails etc....
+
+* Second level subdomain are also available.
+* linux website path 
+   =>ls /var/www/html
+* now we add a switch called "-l"
+   =>ls -l /var/www/html
+* linux - /var/www/html
+* windows - C://
+
+* HTTP/2 - HTTPS
+* HTTP/1.1 - HTTP
+
+* GET /v1/titles HTTP/2
+* Host: contile.services.mozilla.com
+    => mozilla.com  - domain
+    => services     - subdomain
+    => contile      - second level subdomain
+/ - index page 
+  => GET / HTTP/1.1
+* Username Enumeration - using phone number we can check whether it is logged with email or not.
+* WAF - Web Apllication Firewall + rate
+* seclist in github - webcontent - raft
+* Snipper attack - intruder => position => payload => paste (password,username)
+* Settings - Grep Extract => Add => select
+
+
 ---------------------------------------------------------------------------------------------------------------
  GET/v1/tiles HTTP/2
