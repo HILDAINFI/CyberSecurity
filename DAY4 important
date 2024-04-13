@@ -22,3 +22,55 @@ wireshark-to filter particular ips's:ip.addr==98.137.11.163
 ---syn
 ---syn+ack
 ---ack
+---------------------------------------------------------------------------------------------------------------------------------------------------
+VPN VS Proxy
+VPN - Vpn will encrypt the Connection by additional layer of protection.
+    - The key to open the VPN is with the server and client.
+    - mask the IP address
+------------VPN----------------
+  Client <-------> Server
+------------VPN----------------
+     - It is tunnel b/w client and server
+     - Third person can't hear or know the conversion b/w them..
+proxy - 
+ls in linux - dir(command prompt)
+  ls ls iruka folder matum thn cd la open pana mudiyum
+cd    - to open folder
+cd .. - to close the folder
+     ------------------VPN------------------------------------
+             client(192.168.1.2) <-------->server(192.168.1.3) 
+     -------------------VPN------------------------------------
+     10.10.10.2                               10.10.10.3
+
+
+encryption : clear text -> cipher text
+decryption : cipher text -> clear text
+----------------------------------------------------ENCRYPTION-------------------------------------------------------------------
+1.Symmetric : Single key  
+        not secure
+        sends clear text
+         one key is used to lock and unlock  
+         vulnerability: password must be shared so there is high risk
+2.Asymmetric : (Safest in the entire world)
+       -public key
+       -private key
+     https website use Asymmetric encryption
+     public key:given to others to share their encrypted to me
+     private key:nan use pana matum than open pana mudiyum(decrypt pana mudiyum)
+---------------------------------------------------------HASH---------------------------------------------------------------------
+Get-FileHash ./kali-linux-2023.4-vmware-amd64.7z
+HashCalc - to calculate the hash value
+    - check whether the received hash value in powershell and hashcalc valur is same or not.
+    - 
+Hashing is an one way
+   => same length in hash value {hashing alogorithm}
+encrption is 2 way                 ----------------important [differ b/w hashing and encryption]--------------------
+   => differ length in the hash value {encryption alogorithm}
+-----------------------------------------------------------------------------------------------------------------------------------
+virustotal - important tool
+    => to check the file with anti-virus
+    => also check the url is correct or not
+rockyou.txt - tool for hackers.
+BCTextEncoder - a tool
+brute force attack - trying all permutation and combination to crack the password.
+Dictionary attack - already defined passwords can be taken and crack the password
