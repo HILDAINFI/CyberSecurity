@@ -1,2 +1,112 @@
 cd files
 python -m pip install -r requirements.txt
+-----------------------------------------------------------------------------------------
+* Hashcat-open source password cracking tool.
+* John the Ripper- advanced offline password cracker, which supports hundreds of hash and cipher types, and runs on many operating systems, CPUs, GPUs, and even some FPGAs.
+* Hydra(THC-Hydra)- It is fast,flexible and easy it is to gain.
+The above tools are used a common terminology called as Brute Force.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+* Brute Force:A brute force attack is a hacking method that uses trial and error to crack passwords, login credentials, and encryption keys. 
+            It is a simple yet reliable tactic for gaining unauthorized access to individual accounts and organizations’ systems and networks. 
+            The hacker tries multiple usernames and passwords, often using a computer to test a wide range of combinations, until they find the correct login information.
+* vulnerability : weakness for networks.
+* RAT: A RAT (remote access Trojan) is malware an attacker uses to gain full administrative privileges and remote control of a target computer.
+* Attacks: =>using someone's system/software without their permission.
+           =>both hardware/software attacks.
+* Port Scanning
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+* Security & safe guarding the system using CIA Traids
+=> physical control
+=> administrative control
+=> logical control
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+* Cyber Security: securing the source/data.
+* Networking :A medium to connection.
+* TCP/UDP : => Protocols(set of rules).
+            => communicate with hardware and software
+            => TCP has 65535 ports(entry gate) and UDP has 65535 ports.
+* https : port 443 will run with lock symbol which is safe and secure.
+* http : port 80 with unsafe and secured platform.
+* HTTP/HTTPs - diff b/w
+* Block chain security.
+* Exlpoit
+* SQL injection
+* Session Hijacking - without password and username we can access the account.
+* Internet Phising
+* DNS Poising
+* IP Address
+* Cloud 
+* Cryptography
+* APR poising
+* Spoofing
+* Hashing
+* Meta sploit
+* Back door
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+* Hacking - gaining unauthorized access.
+* Ethical Hacking - with return concerns/permission.
+* Web Application penetration Testing.
+* Web Application VS Website VS Web Server VS Webpage.
+* Web Application - user interactions are more.
+* Website - collection of webpages.
+* Webpages - shows content,images,text etc....
+* Webserver - Browsing system or computer by the user.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+* Two career opportunities / types :
+     => offensive (red team) - ethical hacking,Attack.
+     => defensive (blue team) - SOC(Security Operational Center)Analytics,Reverse enginnering,Malware experts
+     => (purple team) - mixer of both red and blue team
+* types of hackers:
+     => White hat - complete architecture/technology given to the attackers.
+     => Black hat - 0% knowledge about the architecture.
+     => Grey hat - both the white and black hats(mrgn legal and night illegal)
+* Script Kiddies
+* Hactivism - socialized hackers
+* State Sponsored Hackers - Government hacks another Government details.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+* CIA Traid (Network Security) :                                                                                           =====important question=====
+      C - Confidentiality
+      I - Integrity
+      A - Avaliability
+* Autentication : verifying the details of the user
+                => something you know(password,email,Two step Verfication,secret things etc...)
+                => something you have(OTP,Aadhar,Voter ID,Pan card,License etc.....)
+                => something about you(Biometrics,behaviour patterns etc....)
+ ====[If you use two factors from the above list that is "2-step verification", If you use all the 3 factors then it is "Multi-step Authentication"]====
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+* Authorization/Access Control(AC) : permission given to use some datas or files etc.....      
+* Confidentiality : 
+                => UAC(User Access Control) popup.
+* Integrity : Originality/Genuinity/Honest
+                => It is mostly used in https-443 port.They secure SSL certificate.
+                => Whenever you create website or application you have to use integrity to avoid script kiddies or malcious attackers.
+* Encryption : conversion of clear text to siffer text(human not understandable form).
+* Availability : best example 
+                => ATM Machine in the time of Demodilization.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+* Breach - The loss of control,comprises,unauthorized disclosure,unauthorized acquisition or any similar occurence where :
+            a person other than an authorized user access or potentially access personally identificable 
+* Event - Any observable occurence in a network or system.NIST SP 800-61 Rev 2.
+* Exploit - A particular attack.It is named this way because these attacks exploit system vulnerabilities.
+* Incident - An event that actually or potentially jeoparadizes the confidentiality,integrity and availability of an information system or the information the system.
+             A thing which affect CIA is called "Incident".
+* Intrusion - Security alert/event,or combination of events.
+* Threat - Any circumstances or event with the potential to damage a system or organizational operations.
+* vulnerability - Weakness in an information system.
+=======[If a threat with vulnerability it is called Risk]========
+* TOE - Target Of Evaluation
+* MySQL - 3306 port.
+* IPv4 - 32bits
+example : 192.168.1.1./24  - TOE { 0-9 } => Decimal to Binary
+conversion 10000000.10101000.00000001.00000001/24   => don't use 1st 24 bits use remaining bits
+* There are 256 possible IP Address : 192.168.1.0 to 192.168.1.255  => 256 IPs
+-----------------------------------------------------------------------------------
+PYPhisher
+Zphisher
+---------------------------------------------------------------------------------------------------------------------------
+PYPhisher - 172.1.42.45  => pyphisher download pannikalam
+   => Powershell
+   => dir
+   => python -m pip install -r requirements.txt
+   => 
+--------------------------------------------------------------------------------------------------------------------------
