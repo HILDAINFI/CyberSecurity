@@ -1,0 +1,58 @@
+Open academy in vmware
+username: root
+pass : tcm
+
+ip link set dev ens33 up
+
+dhclient -v ens33
+
+now you can see the ip address for the academy
+
+GO to windows
+cmd :
+- ssh root@ipaddress
+- useradd -m splunkfwd
+- groupadd splunkfwd
+- export SPLUNK_HOME="/opt/splunkforwarder"
+- mkdir $SPLUNK_HOME
+
+then download splunk download for linux and copy that link
+
+paste in the terminal
+
+then use dpkg -i filename to install
+
+- chown -R splunkfwd:splunkfwd $SPLUNK_HOME
+- $SPLUNK_HOME/bin/splunk start --accept-license
+set administrator user name and pass
+
+then navigate to opt/splunkforward/bin
+
+then check status
+- ./splunk status
+Check it is runnning
+
+./splunk add forward-server 172.1.42.44:9997
+
+then put username pass created in cmd
+
+then goto splunk webpage
+localhost:8000 
+
+setting -> forwarding and receiving -> configure recieving -> add port 9997
+
+then 
+setting -> monitor console -> forwarders -> forwarder instance -> enable the setup
+
+then you can see the academy
+
+to check - ./splunk list forward-server
+
+similarly remove - ./splunk remove forward-server
+
+ssh - it is a server which gives remotly access a machine.
+    - encrypted message can be send.
+port number - 9997 => splunk forwarder will send data and this port number will receive.
+splunk forwarder - it is use to send the log data from academy linux to windows machine. So,we use a seperate ports.
+                 Eg : Authentication log etc...
+                 - this logs are saved in var/log => variable directory/shell.
