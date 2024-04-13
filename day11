@@ -1,1 +1,5 @@
-
+ Username Enumeration - using phone number we can check whether it is logged with email or not.
+* WAF - Web Apllication Firewall + rate
+* seclist in github - webcontent - raft
+* Snipper attack - intruder => position => payload => paste (password,username)
+* Settings - Grep Extract => Add => select
