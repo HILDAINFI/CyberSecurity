@@ -1,0 +1,45 @@
+Cisco WSA - Web Security Appliance
+          - highly secure web gateway
+SSO       - Single Sign On
+          - For Authentication mechanism.
+Cloud service model : 
+       => SaaS - System as a Service
+              Eg : Netflix and other movie platform etc....
+       => PaaS - Platform as a Service
+              Eg : Microsoft Teams,Elastic Beanstalk in AWS etc.....
+       => IaaS - Internet as a Service
+              Eg: Rackspace, Amazon Web Services (AWS) Elastic Compute Cloud (EC2), Microsoft Azure, Google Compute Engine (GCE) and Joyent.
+Platform for cloud - A company that gives the access for creating,deploying,retriving and maintaing an application.
+         Eg : Google,Azure etc.....
+Framework - A framework is like a structure that provides a base for the application development process.
+PPU - Pay-Per-Use 
+    - Cloud works in this terminology.
+How does cloud works ? 
+    => Data Storage
+    => Access Anywhere
+    => Virtualization
+    => Scalability
+    => Cost-Effective
+AWS EC2 - computre or CPU
+S3 Bucket - Amazon Simple Storage Service
+          - a massively scalable storage service based on object storage technology.
+Shared Responsibility : the management, operation, and verification of IT controls is also a shared responsibility.
+                      - 50% and 50% responsibility for customer and provider.
+to connect to the cloud servicde - ssh {remotly access}
+                                 - insecure version of ssh is "telnet".
+FTP -21
+SSH - 22
+Telnet - 23
+HTTP - 80
+ftps - 989
+
+mysql -3306
+mssql - 1433
+vmware - 902
+oracle - 2483
+      
+                                   
+                                   
+                                   
+                                   Risk acceptance,risk avoidance,risk mitigation,risk transfer
+                                   
