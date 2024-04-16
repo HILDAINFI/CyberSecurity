@@ -1,0 +1,19 @@
+Types of Cloud : 
+   => public  ---------> single man user 
+          Eg : Website
+   => private ----------> private for particular person details
+         Eg : inside the organization
+   => Hybird ----------> mix of public and private
+         Eg : In an organization they use both clouds
+   => Community ---------> group of organization use same servers and shared a resources.
+         Eg : Access given to some people in a community.(Kaggle) etc....
+Cloud services providers   :
+   => AWS
+   => Google cloud
+   => Azure
+   => Digital Ocean etc......
+Cloud Security Challenges : 
+   => Data breaches
+   => Compliances concerns
+   => Insiders Threats
+   => Data Loss
