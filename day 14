@@ -17,3 +17,28 @@ Cloud Security Challenges :
    => Compliances concerns
    => Insiders Threats
    => Data Loss
+
+
+
+Compliance
+=>GDPR
+=>GRC
+=>HIPPA
+=>TCI PSS
+=>ISO 27001
+
+=>ISMS policy ** should be maintained by all organizarions
+
+=>DAC-dicreecery access control
+=>RBAC-role based access control
+=>MAC-mandatory access conntrol
+
+CISCO wsa features
+   waf: detecting and defending ddos-rate limiting
+  1.cloud fare
+etter-  man-in-the-middle attack tool
+se toolkit-social engineering tool (only works in lan)
+
+  
+
+
